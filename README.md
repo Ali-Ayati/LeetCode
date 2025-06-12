@@ -2,7 +2,6 @@
 
 This repository contains my solutions to selected problems from [LeetCode](https://leetcode.com/).  
 Each problem is organized by its number and title.  
-Problem descriptions can be added below each title as needed.
 
 ---
 
@@ -85,7 +84,6 @@ Inside each directory, you will typically find:
 
 این مخزن شامل راه‌حل‌های منتخب من برای مسائل سایت [LeetCode](https://leetcode.com/) است.  
 هر مسئله بر اساس شماره و عنوان آن سازماندهی شده است.  
-توضیحات مسئله می‌توانند در زیر هر عنوان در صورت نیاز اضافه شوند.
 
 ---
 
