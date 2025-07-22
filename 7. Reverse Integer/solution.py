@@ -2,7 +2,7 @@ import time
 
 
 # String-based reversal
-class Solution:
+class Solution1:
     def reverse(self, x: int) -> int:
         """
         Reverse the digits of a 32-bit signed integer using string slicing.
@@ -29,15 +29,15 @@ class Solution:
 
 start = time.time()
 x = -123
-a = Solution()
+a = Solution1()
 print(a.reverse(x))
 end = time.time()
 print("String-based reversal Execution time:", end - start, "seconds")
 
-
+# --------------------------------------------------
 
 # Math-based reversal
-class Solution:
+class Solution2:
     def reverse(self, x: int) -> int:
         """
         Reverse the digits of a 32-bit signed integer using mathematical operations.
@@ -73,7 +73,7 @@ class Solution:
    
 start = time.time()
 x = -123
-a = Solution()
+a = Solution2()
 print(a.reverse(x))
 end = time.time()
 print("Math-based reversal Execution time:", end - start, "seconds")
