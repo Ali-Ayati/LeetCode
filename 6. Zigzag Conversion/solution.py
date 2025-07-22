@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-class Solution:
+class Solution1:
     def convert(self, s: str, numRows: int) -> str:
         """
         Converts a string into a zigzag pattern on a given number of rows and reads it line by line.
@@ -35,8 +35,9 @@ class Solution:
             
         return result
 
+# --------------------------------------------------
 
-class Solution:
+class Solution2:
     def convert(self, s: str, numRows: int) -> str:
         """
         Converts a string into a zigzag pattern on a given number of rows and reads it line by line.
@@ -78,5 +79,5 @@ A P L S I I G
 Y   I   R
 """
 
-a = Solution()
+a = Solution2()
 print(a.convert(s=s, numRows=numRows))

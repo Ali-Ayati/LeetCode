@@ -1,5 +1,5 @@
 
-class Solution:
+class Solution1:
     def isPalindrome(self, x: int) -> bool:
         """
         Check if an integer is a palindrome using string reversal.
@@ -19,8 +19,9 @@ class Solution:
         else:
             return int(str(x)[::-1]) == x
 
+# --------------------------------------------------
 
-class Solution:
+class Solution2:
     def isPalindrome(self, x: int) -> bool:
         """
         Check if an integer is a palindrome using pure arithmetic.
@@ -49,8 +50,9 @@ class Solution:
 
         return original == reversed_num
 
+# --------------------------------------------------
 
-class Solution:
+class Solution3:
     def isPalindrome(self, x: int) -> bool:
         """
         One-liner version of string-based palindrome check.
@@ -67,5 +69,7 @@ class Solution:
         profiling and memory allocations affect runtime.
         """
         return False if x < 0 else int(str(x)[::-1]) == x
-a = Solution()
+
+
+a = Solution3()
 print(a.isPalindrome(123))
